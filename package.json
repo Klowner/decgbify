@@ -21,13 +21,16 @@
     "test": "jest"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Klowner/uncgbify"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/parser": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/types": "^7.20.5",
     "@types/jest": "^29.2.4",
-    "@zip.js/zip.js": "^2.6.60",
     "concurrently": "^7.6.0",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.3",

@@ -1,1 +1,1 @@
-export { deCgBI } from './decgbi';
+export { unCgBIfy } from './uncgbify';

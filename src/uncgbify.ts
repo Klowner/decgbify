@@ -3,7 +3,7 @@ import CRC32 from 'crc-32';
 
 const IGNORE_CHUNK_TYPES = ['CgBI', 'iDOT'];
 
-export function deCgBI(buffer: ArrayBuffer): ArrayBuffer {
+export function unCgBIfy(buffer: ArrayBuffer): ArrayBuffer {
 	const decoder = new TextDecoder('utf-8');
 	const encoder = new TextEncoder();
 	const view = new DataView(buffer);
