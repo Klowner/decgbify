@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "outDir": "dist-types",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "removeComments": false,
+    "strict": true
+  }
+}
